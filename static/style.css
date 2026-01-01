@@ -1,0 +1,67 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-weight: 100;
+}
+
+h1 {
+    font-family: 'Playwrite AU QLD', sans-serif;
+    font-weight: 400;
+    font-size: 72px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+input {
+    padding: 5px;
+    margin: 10px;
+    border: solid 3px black;
+    border-radius: 2px;
+    box-shadow: 5px 5px;
+    background-color: #bbff00;
+}
+
+button {
+    padding: 5px;
+    margin: 10px;
+    border: solid 3px black;
+    border-radius: 2px;
+    box-shadow: 5px 5px;
+    background-color: #bbff00;
+}
+
+.container {
+    outline: solid 3px black;
+    border-radius: 35px;
+    padding: 20px 40px;
+    margin: 20px;
+    background-color: #fce4c9;
+    width: fit-content;
+    height: fit-content;
+    box-shadow: 0px 10px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
